@@ -1,5 +1,17 @@
+import { BrowserRouter } from 'react-router-dom';
+import Inicio from './paginas/Inicio';
+import SobreMim from './paginas/Inicio/SobreMim';
+
+console.log(window.location);
+
+const pagina = window.location.pathname === '/' ? <Inicio /> : <SobreMim />;
+
 function App() {
-    return <h1>Olá mundo</h1>;
+    return (
+        <BrowserRouter>
+            
+        </BrowserRouter>
+    );
 }
 
 export default App;
