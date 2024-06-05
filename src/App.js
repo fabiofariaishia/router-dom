@@ -1,6 +1,6 @@
 import { BrowserRouter } from 'react-router-dom';
 import Inicio from './paginas/Inicio';
-import SobreMim from './paginas/Inicio/SobreMim';
+import SobreMim from './paginas/SobreMim';
 
 console.log(window.location);
 
